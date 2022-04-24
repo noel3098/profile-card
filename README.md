@@ -13,7 +13,7 @@ In this project we can see a responsive design for a NFT preview card component
 
 ## Live Demo
 
-[Live Demo Link](https://noel3098.github.io/nft-card/)
+[Live Demo Link](https://noel3098.github.io/profile-card/)
 
 
 ## Getting Started
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 1- Clone the repository
 ```
-git clone https://github.com/Noel3098/nft-card.git
+git clone https://github.com/Noel3098/profile-card.git
 ```
 
 2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
