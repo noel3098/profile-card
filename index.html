@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <figure>
+          <img src="./src/images/bg-pattern-card.svg" alt="" class="bg" />
+        </figure>
+      </article>
 
-  80K
-  Followers
+      
+      <section class="body">
+        <picture>
+          <img src="./src/images/image-victor.jpg" alt="" class="profile" />
+        </picture>
 
-  803K
-  Likes
+        <article class="name">
+          <h3>
+            Victor Crest
+            <span>26</span>
+          </h3>
+          <p>London</p>
+        </article>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <ul>
+          <li>80K <p>Followers</p></li>
+          <li>803K <p>Likes</p></li>
+          <li>1.4K <p>Photos</p></li>
+        </ul>
+      </section>
+
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Noel3098">Noel Mejia</a>.
+    </div>
+  </body>
 </html>
