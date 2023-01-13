@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component
+# Frontend Mentor - Profile card component
 
 > An easy way to rend a home anywhere
 
